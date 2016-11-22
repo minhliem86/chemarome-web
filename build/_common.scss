@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+
+
+/* DEFINE */
+$cl-hong:#c52d98;
+$cl-light-black:#2a2a2a;
+$cl-footer:#212121;
+$cl-text:#363636;
+
+
+/* MIXIN */
+@mixin fontbase{
+	font-family: 'Raleway', sans-serif;
+}
+@mixin media($width){
+	@media screen and (max-width:$width){
+		@content;
+	}
+}
+@media transition($trans...){
+	transition:$trans;
+	-webkit-transition:$trans;
+	-moz-transition:$trans;
+}
+
+/* RESET */
+*{margin:0; padding:0}
+body{
+	font-size:62.5%;
+	@include fontbase;
+}
+h1, h2, h3, h4{font-size:2rem; margin:0; padding:0}
+p{margin:0; padding:0; font-size:1.4rem}
+ul{margin:0;}
+a{text-decoration:none; outline:none}
+
+
+
+
+
+
+
+

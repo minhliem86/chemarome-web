@@ -1,0 +1,12 @@
+{
+    "output": {
+        "dir": "css",
+        "structure": "flat"
+    },
+    "compile": {
+        "line-comments": true,
+        "line-numbers":  true,
+        "style":         "expanded", // Comments allowed in `.libsass.json`, but not `*.sublime-settings`
+        "load-path":     "/chemarome-web/build" // You DO NOT need this line
+    }
+}

@@ -8,6 +8,7 @@ $cl-hong2:#852e81;
 $cl-light-black:#2a2a2a;
 $cl-footer:#212121;
 $cl-text:#363636;
+$cl-light-text:#c6c7c5;
 
 
 /* MIXIN */
@@ -174,7 +175,7 @@ div.clear{
 				font-weight: 900;
 				text-transform: uppercase;
 				color:white;
-				line-height: 5rem;
+				line-height: 6rem;
 				margin-bottom:3.5rem;
 			}
 			a.readmore-caption{
@@ -234,7 +235,7 @@ div.clear{
 					display:block;
 					font-size:1.4rem;
 					padding:5px 0;
-					color:white;
+					color:$cl-light-text;
 					text-transform: uppercase;
 					@include transition(all 0.3s);
 					&:hover{
@@ -283,7 +284,7 @@ div.clear{
 		}
 		ul.list-social{
 			padding:0;
-			margin-top:20px;
+			// margin-top:20px;
 			list-style:none;
 			@include media(767px){
 				text-align: center;
@@ -291,9 +292,9 @@ div.clear{
 			}
 			li{
 				display:inline-block;
-				padding-right:15px;
+				margin-right:10px;
 				&:last-child{
-					padding:0;
+					margin:0;
 				}
 				span{
 					display:block;

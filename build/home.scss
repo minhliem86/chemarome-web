@@ -3,9 +3,9 @@
 .home-slogan{
 	padding:70px 0;
 	background:$cl-hong;
-	background:linear-gradient(to right bottom, $cl-hong, $cl-hong2 );
-	background:-moz-linear-gradient(to right bottom, $cl-hong, $cl-hong2 );
-	background:-webkit-linear-gradient(to right bottom, $cl-hong, $cl-hong2 );
+	background:linear-gradient(to right bottom, $cl-hong, #852e81 );
+	background:-moz-linear-gradient(to right bottom, $cl-hong, #852e81 );
+	background:-webkit-linear-gradient(to right bottom, $cl-hong, #852e81 );
 	.wrap-slogan{
 		color:white;
 		text-align:center;
@@ -35,8 +35,8 @@
 		}
 		p.sub-title-slogan{
 			font-size:1.5rem;
+			font-weight:300;
 			line-height:2.8rem;
-			width:80%;
 			margin:0 auto;
 			@include media(767px){
 				font-size:1.2rem;
@@ -51,6 +51,9 @@
 		position:relative;
 		margin-bottom:2rem;
 		overflow:hidden;
+		&.last{
+			margin-bottom:0;
+		}
 		.img-pro-in{
 			display: block;
 		    position: relative;
@@ -87,7 +90,7 @@
 		.overlay{
 			z-index:2;
 			position:absolute;
-			padding:15px 30px;
+			padding:8px 10px;
 			left:0;
 			bottom:0;
 			width:100%;
@@ -101,7 +104,6 @@
 		}
 		.title-pro-overlay{
 			color:white;
-			font-size:1.6rem;
 			text-transform:uppercase;
 			display:inline-block;
 			position:static;
@@ -109,6 +111,7 @@
 			left:auto;
 			opacity:0;
 			font-size:1.8rem;
+			font-weight:400;
 			line-height:2.5rem;
 			@include transition(all 0.3s);
 			@include media(767px){
@@ -133,14 +136,16 @@
 				opacity:0;
 			}
 			.img-pro-in{
-				-webkit-transform: translate3d(0,-10%,0);
-				transform: translate3d(0,-10%,0);
+				-webkit-transform: translate3d(0,-9%,0);
+				-moz-transform: translate3d(0,-9%,0);
+				transform: translate3d(0,-9%,0);
 			}
 			.title-pro-overlay{
 				opacity:1;
 			}
 			.overlay{
 				-webkit-transform: translate3d(0,0,0);
+				-moz-transform: translate3d(0,0,0);
 				transform: translate3d(0,0,0);
 			}
 		}

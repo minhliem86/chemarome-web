@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
 @import "_medium-small";
 
 
@@ -136,10 +136,10 @@ div.clear{
 						 		height:1px;
 						 		@include transition(all 0.3s);
 						 	}
-						 	&:hover{
+						 	&:hover, &.active{
 						 		color:$cl-hong;
 						 	}
-						 	&:hover:after{
+						 	&:hover:after, &.active:after{
 						 		width:100%;
 						 	}
 						 	@include media(991px){
@@ -162,14 +162,16 @@ div.clear{
 
 		}
 	}
+}
+.banner{
+	position:relative;
 	.parallax-window{
-		min-height:600px;
+		min-height:400px;
 		background:transparent;
 		.wrap-caption{
 			height:100%;
 			position:absolute;
-			top:45%;
-
+			top:30%;
 			h3.caption{
 				font-size:4.5rem;
 				font-weight: 900;

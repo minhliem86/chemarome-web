@@ -51,6 +51,7 @@
 		position:relative;
 		margin-bottom:2rem;
 		overflow:hidden;
+		@include transition(all 0.3s);
 		&.last{
 			margin-bottom:0;
 		}
@@ -129,6 +130,7 @@
 			
 		}
 		&:hover{
+			box-shadow:0 5px 15px rgba(200,67,146,0.8);
 			div.fog-hover{
 				opacity:0;
 			}

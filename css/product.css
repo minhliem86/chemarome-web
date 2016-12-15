@@ -708,119 +708,138 @@ div.clear {
   background: #c52d98;
 }
 
-/* line 3, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.home-slogan {
-  padding: 70px 0;
-  background: #c52d98;
-  background: linear-gradient(to right bottom, #c52d98, #852e81);
-  background: -moz-linear-gradient(to right bottom, #c52d98, #852e81);
-  background: -webkit-linear-gradient(to right bottom, #c52d98, #852e81);
+@media screen and (max-width: 767px) {
+  /* line 5, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .detail-page .header-section .header nav #main-navigation {
+    background: #c52d98;
+    padding: 0;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    z-index: 10;
+  }
+  /* line 12, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .detail-page .header-section .header nav #main-navigation ul li a {
+    color: white;
+  }
+  /* line 14, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .detail-page .header-section .header nav #main-navigation ul li a:hover {
+    color: white;
+  }
 }
 
-/* line 9, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.home-slogan .wrap-slogan {
-  color: white;
+/* line 22, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page {
+  padding: 40px 0;
+}
+
+/* line 24, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page div.wrap-info-product {
+  margin-bottom: 5rem;
+}
+
+/* line 26, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page div.wrap-info-product h1.title-page {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  font-weight: 900;
   text-align: center;
-}
-
-/* line 12, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.home-slogan .wrap-slogan h2.title-slogan {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem;
-  line-height: 4rem;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
   position: relative;
-  font-weight: 600;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
 }
 
-/* line 20, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.home-slogan .wrap-slogan h2.title-slogan:after {
+/* line 35, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page div.wrap-info-product h1.title-page:after {
   content: '';
+  display: block;
+  width: 140px;
+  height: 2px;
+  background: #c52d98;
   position: absolute;
-  bottom: 0;
   left: 50%;
-  height: 1px;
-  width: 100px;
-  background: white;
+  bottom: 0;
   transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
 }
 
-@media screen and (max-width: 767px) {
-  /* line 12, D:/xampp/htdocs/chemarome-web/build/home.scss */
-  .home-slogan .wrap-slogan h2.title-slogan {
-    font-size: 1.8rem;
-  }
-}
-
-/* line 36, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.home-slogan .wrap-slogan p.sub-title-slogan {
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 2.8rem;
+/* line 49, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page div.wrap-info-product p.content-page {
+  width: 85%;
   margin: 0 auto;
+  text-align: justify;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: #444444;
 }
 
-@media screen and (max-width: 767px) {
-  /* line 36, D:/xampp/htdocs/chemarome-web/build/home.scss */
-  .home-slogan .wrap-slogan p.sub-title-slogan {
-    font-size: 1.2rem;
-  }
-}
-
-/* line 48, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info {
-  padding: 5rem 0;
-}
-
-/* line 50, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img {
-  position: relative;
-  margin-bottom: 2rem;
+/* line 59, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product {
   overflow: hidden;
+}
+
+/* line 61, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product {
+  width: 25%;
+  float: left;
+  position: relative;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
 }
 
-/* line 55, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img.last {
-  margin-bottom: 0;
+@media screen and (max-width: 480px) {
+  /* line 61, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
 }
 
-/* line 58, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img .img-pro-in {
+/* line 71, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product img.product {
   display: block;
   position: relative;
+  -webkit-transform: translate3d(0, 0%, 0);
+  -moz-transform: translate3d(0, 0%, 0);
+  transform: translate3d(0, 0%, 0);
   -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
 }
 
-/* line 64, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img div.fog-hover {
-  background: rgba(0, 0, 0, 0.3);
+/* line 81, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product div.fog {
   position: absolute;
-  bottom: -90px;
-  left: 0;
   top: 0;
-  height: 100%;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
-  transition: all 0.8s;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
   opacity: 1;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
-/* line 76, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img h2.title-pro {
+@media screen and (max-width: 480px) {
+  /* line 81, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product div.fog {
+    display: none;
+  }
+}
+
+/* line 95, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product h2.title-product {
   position: absolute;
-  bottom: 1rem;
-  left: 1rem;
+  top: 2rem;
+  left: 2rem;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
   text-transform: uppercase;
   z-index: 2;
   font-weight: 600;
@@ -831,95 +850,138 @@ div.clear {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 76, D:/xampp/htdocs/chemarome-web/build/home.scss */
-  .product-info .wrap-img h2.title-pro {
-    font-size: 1.5rem;
+  /* line 95, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product h2.title-product {
+    font-size: 1.1rem;
+    top: 0.5rem;
+    left: 0.5rem;
   }
 }
 
-/* line 91, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img .overlay {
+@media screen and (max-width: 480px) {
+  /* line 95, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product h2.title-product {
+    display: none;
+  }
+}
+
+/* line 116, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product div.overlay {
   z-index: 2;
   position: absolute;
-  padding: 8px 10px;
+  padding: 17px 20px;
   left: 0;
-  bottom: 0;
+  top: 0;
   width: 100%;
   background: #c52d98;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 100%, 0);
-  -moz-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-}
-
-/* line 106, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img .title-pro-overlay {
-  color: white;
-  text-transform: uppercase;
-  display: inline-block;
-  position: static;
-  bottom: auto;
-  left: auto;
-  opacity: 0;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 2.5rem;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 106, D:/xampp/htdocs/chemarome-web/build/home.scss */
-  .product-info .wrap-img .title-pro-overlay {
-    font-size: 1.3rem;
+  /* line 116, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product div.overlay {
+    padding: 5px 10px;
   }
 }
 
-/* line 122, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img .readmore {
-  display: inline-block;
-  float: right;
-  padding: 3px 12px;
-  border: 1px solid white;
-  border-radius: 20px;
+@media screen and (max-width: 480px) {
+  /* line 116, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product div.overlay {
+    position: static;
+  }
+}
+
+/* line 136, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product div.overlay h2.title-overlay {
   color: white;
-  font-size: 1.2rem;
+  text-transform: uppercase;
+  display: block;
+  opacity: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  position: relative;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
-/* line 132, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img:hover {
-  box-shadow: 0 5px 15px rgba(200, 67, 146, 0.8);
+@media screen and (max-width: 767px) {
+  /* line 136, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product div.overlay h2.title-overlay {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
 }
 
-/* line 134, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img:hover div.fog-hover {
+@media screen and (max-width: 480px) {
+  /* line 136, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product div.overlay h2.title-overlay {
+    opacity: 1;
+  }
+}
+
+/* line 153, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product div.overlay h2.title-overlay:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid white;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+
+@media screen and (max-width: 767px) {
+  /* line 153, D:/xampp/htdocs/chemarome-web/build/product.scss */
+  .product-page .wrap-each-product div.each-product div.overlay h2.title-overlay:after {
+    display: none;
+  }
+}
+
+/* line 175, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product:hover {
+  box-shadow: 0 5px 20px rgba(200, 67, 146, 0.8);
+}
+
+/* line 177, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product:hover div.fog {
   opacity: 0;
 }
 
-/* line 137, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img:hover h2.title-pro {
+/* line 180, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product:hover img.product {
+  -webkit-transform: translate3d(0, 9%, 0);
+  -moz-transform: translate3d(0, 9%, 0);
+  transform: translate3d(0, 9%, 0);
+}
+
+/* line 185, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product:hover h2.title-product {
   opacity: 0;
 }
 
-/* line 140, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img:hover .img-pro-in {
-  -webkit-transform: translate3d(0, -9%, 0);
-  -moz-transform: translate3d(0, -9%, 0);
-  transform: translate3d(0, -9%, 0);
+/* line 188, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product:hover div.overlay {
+  -webkit-transform: translate3d(0, 0%, 0);
+  -moz-transform: translate3d(0, 0%, 0);
+  transform: translate3d(0, 0%, 0);
 }
 
-/* line 145, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img:hover .title-pro-overlay {
+/* line 193, D:/xampp/htdocs/chemarome-web/build/product.scss */
+.product-page .wrap-each-product div.each-product:hover div.overlay h2.title-overlay {
   opacity: 1;
-}
-
-/* line 148, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.product-info .wrap-img:hover .overlay {
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
 }

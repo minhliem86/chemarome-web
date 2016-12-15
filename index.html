@@ -7,14 +7,21 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/home.css">
+	
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<!-- VIDEO -->
+	<link rel="stylesheet" href="js/video/plyr.css">
+	<script type="text/javascript" src="js/video/plyr.js"></script>
+	<!-- END -->
 	<script>
 		$(document).ready(function(){
 			$('.list-map').matchHeight();
+
+			plyr.setup();
 		})
 	</script>
 	<title>Chemarome</title>
@@ -57,10 +64,13 @@
 		</div><!-- end header section -->
 		<div class="banner">
 			<!-- <img src="images/banner02.png" class="img-responsive" alt=""> -->
-			<div class="parallax-window" data-parallax="scroll" data-image-src="images/banner03.png">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="images/banner.jpg">
 				<div class="container">
 					<div class="wrap-caption">
-						<h3 class="caption">CHemarome<br/>CHALLENGING your senses</h3>
+						<h3 class="caption">
+							<img src="images/home/logo-vector.png" class="logo-caption img-responsive" alt="">
+							<p>CHALLENGING your senses</p>
+							</h3>
 						<a href="#" class="readmore-caption">Read more</a>
 					</div>
 				</div>
@@ -68,10 +78,23 @@
 		</div>
 		<div class="home-slogan">
 			<div class="container wrap-slogan">
-				<h2 class="title-slogan">WE ARE ALWAYS EXPLORING ARE WORKING TIRELESSLY TO DISCOVER FRAGRANCES THAT INSPIRE OUR CUSTOMER AND DELIGHT CONSUNMER  </h2>
-				<p class="sub-title-slogan">Chemarome is dynamic and modern international fragrance manufacturer with European heritage originating in Barcelona. We have our office located in Spain, Singapore, Indonesia and Vietnam We manufacture 4 main fragrance lines for: Body care, Household Applications, Interior Fragrance and Industrial Fragrance.</p>
+				<h2 class="title-slogan">We are always exploring and working tirelessy to discover<br/>fragrances the inspire our customers and delight consumers</h2>
 			</div>
 		</div>	<!-- end home slogan -->
+
+		<div class="video-area">
+			<div class="wrap-video">
+				<div data-type="youtube" data-video-id="vhfYis6VuXY"></div>
+			</div>
+		</div>	<!-- end video area -->
+
+		<div class="home-section2">
+			<div class="container">
+				<p class="text-section2">Chemarome is dynamic and modern international fragrance manufacturer with European<Br/>
+heritage originating in Barcelona. We have our office located in Spain, Singapore, Indonesia and Vietnam<Br/>
+We manufacture 4 main fragrance lines for: Body care, Household Applications, Air Care Fragrances  and Industrial Fragrance.</p>
+			</div>
+		</div>	<!-- end section 2-->
 
 		<div class="product-info">
 			<div class="container">
@@ -128,7 +151,7 @@
 			<div class="container">
 				<div class="row top-map">
 					<div class="col-md-5 col-sm-7">
-						<h2 class="title-ma-in">Chemarome</h2>
+						<h2 class="title-ma-in"><img src="images/logo-footer.png" class="img-responsive" alt="Chemarome"></h2>
 						<div class="row each-col-ma">
 							<div class="col-xs-6">
 								<ul class="list-map">
@@ -180,14 +203,18 @@
 						</ul>
 					</div>
 					<div class="col-md-7 col-sm-6">
-						<form action="" class="form-contact">
-							<div class="form-group">
-								<input type="text" name="email" class="form-control" placeholder="Email">
+						<div class="container-fluid">
+							<div class="row">
+								<form action="" class="form-contact">
+									<div class="col-md-6">
+										<input type="text" name="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="col-md-6">
+										<input type="submit" class="btn-submit" value="Submit">
+									</div>
+								</form>
 							</div>
-							<div class="form-group">
-								<input type="submit" class="btn-submit" value="Submit">
-							</div>
-						</form>
+						</div>
 					</div>
 				</div>
 			</div>

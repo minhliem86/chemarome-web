@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900");
+@import url(../fonts/calibri/font.css);
 /**
   * Custom Bootstrap 3 grid for 480-767px layout
   * Author: Iftakhar Hasan
@@ -255,66 +256,66 @@
 /* DEFINE */
 /* MIXIN */
 /* RESET */
-/* line 30, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 36, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 31, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 37, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 34, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 40, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 1.4rem;
 }
 
-/* line 38, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 44, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 h1, h2, h3, h4 {
   font-size: 2rem;
   margin: 0;
   padding: 0;
 }
 
-/* line 39, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 45, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 p {
   margin: 0;
   padding: 0;
   font-size: 1.4rem;
 }
 
-/* line 40, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 46, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 ul {
   margin: 0;
 }
 
-/* line 41, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 47, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 a {
   text-decoration: none;
   outline: none;
 }
 
-/* line 42, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 48, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 46, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 52, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 div.clear {
   clear: both;
 }
 
 /* HEADER */
-/* line 53, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 59, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section {
   padding-top: 90px;
   position: relative;
 }
 
-/* line 56, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 62, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header {
   height: 90px;
   width: 100%;
@@ -323,20 +324,20 @@ div.clear {
   left: 0;
 }
 
-/* line 62, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 68, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header .wrap-logo {
   padding: 30px 0 20px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 62, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 68, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header .wrap-logo {
     float: left;
     width: 50%;
   }
 }
 
-/* line 69, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 75, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header .navbar-header {
   float: right;
   width: 50%;
@@ -344,43 +345,43 @@ div.clear {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 69, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 75, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header .navbar-header {
     margin-top: 20px;
   }
 }
 
-/* line 76, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 82, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header .navbar-header button.navbar-toggle {
   margin-right: 0;
 }
 
-/* line 78, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 84, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header .navbar-header button.navbar-toggle span.icon-bar {
   background: #2a2a2a;
 }
 
-/* line 83, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 89, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav {
   padding-top: 45px;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 83, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 89, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav {
     padding-top: 35px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 83, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 89, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav {
     padding-top: 0px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 92, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 98, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation {
     background: white;
     padding: 0;
@@ -388,7 +389,7 @@ div.clear {
   }
 }
 
-/* line 98, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 104, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav #main-navigation ul {
   text-align: right;
   padding: 0;
@@ -396,27 +397,27 @@ div.clear {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 98, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 104, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation ul {
     text-align: left;
   }
 }
 
-/* line 105, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 111, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav #main-navigation ul li {
   display: inline-block;
   padding: 0 15px 0 15px;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 105, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 111, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation ul li {
     padding: 0 5px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 105, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 111, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation ul li {
     display: block;
     padding: 0;
@@ -424,7 +425,7 @@ div.clear {
   }
 }
 
-/* line 116, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 122, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav #main-navigation ul li a {
   display: block;
   font-size: 1.6rem;
@@ -439,7 +440,7 @@ div.clear {
   -moz-transition: all 0.3s;
 }
 
-/* line 126, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 132, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav #main-navigation ul li a:after {
   content: '';
   position: absolute;
@@ -449,25 +450,25 @@ div.clear {
   margin: 0 auto;
   width: 0%;
   color: transparent;
-  background: #c52d98;
+  background: #dc469f;
   height: 1px;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
 }
 
-/* line 139, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 145, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav #main-navigation ul li a:hover, .header-section .header nav #main-navigation ul li a.active {
-  color: #c52d98;
+  color: #dc469f;
 }
 
-/* line 142, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 148, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .header-section .header nav #main-navigation ul li a:hover:after, .header-section .header nav #main-navigation ul li a.active:after {
   width: 100%;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 116, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 122, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation ul li a {
     padding: 0 5px 5px 5px;
     font-size: 1.4rem;
@@ -475,90 +476,104 @@ div.clear {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 116, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 122, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation ul li a {
     padding: 0;
     font-size: 1.4rem;
   }
-  /* line 152, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 158, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .header-section .header nav #main-navigation ul li a:after {
     content: '';
     display: none;
   }
 }
 
-/* line 166, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 172, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .banner {
   position: relative;
 }
 
-/* line 168, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 174, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .banner .parallax-window {
   min-height: 400px;
   background: transparent;
 }
 
-/* line 171, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 177, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .banner .parallax-window .wrap-caption {
   height: 100%;
   position: absolute;
   top: 30%;
 }
 
-/* line 175, D:/xampp/htdocs/chemarome-web/build/_common.scss */
-.banner .parallax-window .wrap-caption h3.caption {
+/* line 182, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+.banner .parallax-window .wrap-caption h3.caption p {
   font-size: 4.5rem;
+  font-family: 'Calibri', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   color: white;
-  line-height: 6rem;
   margin-bottom: 3.5rem;
 }
 
-/* line 183, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 190, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+.banner .parallax-window .wrap-caption h3.caption img.logo-caption {
+  margin-bottom: 1.5rem;
+}
+
+/* line 194, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .banner .parallax-window .wrap-caption a.readmore-caption {
   font-size: 2.2rem;
+  font-family: 'Calibri', sans-serif;
   font-weight: 500;
   padding: 5px 25px;
   color: white;
   border-radius: 18px;
-  background: #d546ab;
+  border: 0.2rem solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+
+/* line 203, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+.banner .parallax-window .wrap-caption a.readmore-caption:hover {
+  background: #c87fc5;
 }
 
 /* MAP INFO */
-/* line 195, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 212, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info {
   padding: 70px 0 10px;
   background: #2a2a2a;
 }
 
-/* line 198, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 215, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map {
   margin-bottom: 1rem;
 }
 
-/* line 200, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 217, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map h2.title-ma-in {
   font-size: 3.5rem;
   font-weight: 600;
   margin-bottom: 2.5rem;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   position: relative;
   color: white;
 }
 
-/* line 207, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 224, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map h2.title-ma-in:after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 50px;
-  height: 2px;
-  background: #c52d98;
+  width: 40px;
+  height: 3px;
+  background: #8c277d;
 }
 
-/* line 217, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 234, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map p.content-ma-in {
   font-size: 1.4rem;
   text-align: justify;
@@ -567,14 +582,14 @@ div.clear {
   color: white;
 }
 
-/* line 224, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 241, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map ul.list-map {
   padding: 0;
   list-style: none;
   margin-bottom: 1.8rem;
 }
 
-/* line 229, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 246, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map ul.list-map li.title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -583,7 +598,7 @@ div.clear {
   text-transform: uppercase;
 }
 
-/* line 236, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 253, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map ul.list-map li a {
   display: block;
   font-size: 1.4rem;
@@ -595,45 +610,45 @@ div.clear {
   -moz-transition: all 0.3s;
 }
 
-/* line 243, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 260, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .top-map ul.list-map li a:hover {
-  color: #d74eae;
+  color: #e471b5;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 236, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 253, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .map-info .top-map ul.list-map li a {
     font-size: 1.3rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 236, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 253, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .map-info .top-map ul.list-map li a {
     font-size: 1.2rem;
   }
 }
 
-/* line 256, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 273, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map {
   color: white;
   text-transform: uppercase;
 }
 
-/* line 259, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 276, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map h2.title-con-ma {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
 
-/* line 264, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 281, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map p.content-con-ma {
   font-size: 1.4rem;
   line-height: 2.5rem;
 }
 
-/* line 269, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 286, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map .form-contact input[type="text"], .map-info .contact-map .form-contact input.btn-submit {
   width: 100%;
   padding: 20px 30px;
@@ -643,42 +658,42 @@ div.clear {
   outline: none !important;
 }
 
-/* line 277, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 294, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map .form-contact input.btn-submit {
-  padding: 15px 0;
-  background: #c52d98;
+  padding: 11px 0;
+  background: #c87fc5;
   color: white;
   text-align: center;
   border: none;
   text-transform: uppercase;
 }
 
-/* line 287, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 304, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map ul.list-social {
   padding: 0;
   list-style: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 287, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+  /* line 304, D:/xampp/htdocs/chemarome-web/build/_common.scss */
   .map-info .contact-map ul.list-social {
     text-align: center;
     margin-bottom: 10px;
   }
 }
 
-/* line 295, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 312, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map ul.list-social li {
   display: inline-block;
   margin-right: 10px;
 }
 
-/* line 298, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 315, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map ul.list-social li:last-child {
   margin: 0;
 }
 
-/* line 301, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 318, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map ul.list-social li span {
   display: block;
   width: 45px;
@@ -692,7 +707,7 @@ div.clear {
   -moz-transition: all 0.3s;
 }
 
-/* line 310, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 327, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map ul.list-social li span i {
   font-size: 1.6rem;
   position: absolute;
@@ -703,38 +718,31 @@ div.clear {
   -moz-transform: translate(-50%, -50%);
 }
 
-/* line 319, D:/xampp/htdocs/chemarome-web/build/_common.scss */
+/* line 336, D:/xampp/htdocs/chemarome-web/build/_common.scss */
 .map-info .contact-map ul.list-social li span:hover {
-  background: #c52d98;
+  background: #c87fc5;
 }
 
-/* line 3, D:/xampp/htdocs/chemarome-web/build/home.scss */
-.home-slogan {
-  padding: 70px 0;
-  background: #c52d98;
-  background: linear-gradient(to right bottom, #c52d98, #852e81);
-  background: -moz-linear-gradient(to right bottom, #c52d98, #852e81);
-  background: -webkit-linear-gradient(to right bottom, #c52d98, #852e81);
-}
-
-/* line 9, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 4, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .home-slogan .wrap-slogan {
-  color: white;
+  color: #444444;
   text-align: center;
 }
 
-/* line 12, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 7, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .home-slogan .wrap-slogan h2.title-slogan {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem;
+  padding: 50px 0 35px;
+  font-family: 'Calibri', sans-serif;
+  font-size: 3rem;
   line-height: 4rem;
-  margin-bottom: 3rem;
   padding-bottom: 2rem;
   position: relative;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
-/* line 20, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 17, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .home-slogan .wrap-slogan h2.title-slogan:after {
   content: '';
   position: absolute;
@@ -742,20 +750,20 @@ div.clear {
   left: 50%;
   height: 1px;
   width: 100px;
-  background: white;
+  background: #8c277d;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 12, D:/xampp/htdocs/chemarome-web/build/home.scss */
+  /* line 7, D:/xampp/htdocs/chemarome-web/build/home.scss */
   .home-slogan .wrap-slogan h2.title-slogan {
     font-size: 1.8rem;
   }
 }
 
-/* line 36, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 33, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .home-slogan .wrap-slogan p.sub-title-slogan {
   font-size: 1.5rem;
   font-weight: 300;
@@ -764,18 +772,48 @@ div.clear {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 36, D:/xampp/htdocs/chemarome-web/build/home.scss */
+  /* line 33, D:/xampp/htdocs/chemarome-web/build/home.scss */
   .home-slogan .wrap-slogan p.sub-title-slogan {
     font-size: 1.2rem;
   }
 }
 
-/* line 48, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 45, D:/xampp/htdocs/chemarome-web/build/home.scss */
+.video-area {
+  padding: 5rem 0;
+}
+
+/* line 47, D:/xampp/htdocs/chemarome-web/build/home.scss */
+.video-area div.wrap-video {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 54, D:/xampp/htdocs/chemarome-web/build/home.scss */
+.home-section2 {
+  background: transparent url("../images/banner-area2.jpg") no-repeat;
+  background-size: cover;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+/* line 60, D:/xampp/htdocs/chemarome-web/build/home.scss */
+.home-section2 p.text-section2 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  line-height: 3.6rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 70, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info {
   padding: 5rem 0;
 }
 
-/* line 50, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 72, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img {
   position: relative;
   margin-bottom: 2rem;
@@ -785,12 +823,12 @@ div.clear {
   -moz-transition: all 0.3s;
 }
 
-/* line 55, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 77, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img.last {
   margin-bottom: 0;
 }
 
-/* line 58, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 80, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img .img-pro-in {
   display: block;
   position: relative;
@@ -798,7 +836,7 @@ div.clear {
   transition: transform 0.3s;
 }
 
-/* line 64, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 86, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img div.fog-hover {
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -814,7 +852,7 @@ div.clear {
   opacity: 1;
 }
 
-/* line 76, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 98, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img h2.title-pro {
   position: absolute;
   bottom: 1rem;
@@ -831,13 +869,13 @@ div.clear {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 76, D:/xampp/htdocs/chemarome-web/build/home.scss */
+  /* line 98, D:/xampp/htdocs/chemarome-web/build/home.scss */
   .product-info .wrap-img h2.title-pro {
     font-size: 1.5rem;
   }
 }
 
-/* line 91, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 113, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img .overlay {
   z-index: 2;
   position: absolute;
@@ -845,7 +883,7 @@ div.clear {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #c52d98;
+  background: #c87fc5;
   overflow: hidden;
   -webkit-transform: translate3d(0, 100%, 0);
   -moz-transform: translate3d(0, 100%, 0);
@@ -855,7 +893,7 @@ div.clear {
   -moz-transition: all 0.3s;
 }
 
-/* line 106, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 128, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img .title-pro-overlay {
   color: white;
   text-transform: uppercase;
@@ -873,13 +911,13 @@ div.clear {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 106, D:/xampp/htdocs/chemarome-web/build/home.scss */
+  /* line 128, D:/xampp/htdocs/chemarome-web/build/home.scss */
   .product-info .wrap-img .title-pro-overlay {
     font-size: 1.3rem;
   }
 }
 
-/* line 122, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 144, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img .readmore {
   display: inline-block;
   float: right;
@@ -890,34 +928,34 @@ div.clear {
   font-size: 1.2rem;
 }
 
-/* line 132, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 154, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img:hover {
   box-shadow: 0 5px 15px rgba(200, 67, 146, 0.8);
 }
 
-/* line 134, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 156, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img:hover div.fog-hover {
   opacity: 0;
 }
 
-/* line 137, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 159, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img:hover h2.title-pro {
   opacity: 0;
 }
 
-/* line 140, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 162, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img:hover .img-pro-in {
   -webkit-transform: translate3d(0, -9%, 0);
   -moz-transform: translate3d(0, -9%, 0);
   transform: translate3d(0, -9%, 0);
 }
 
-/* line 145, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 167, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img:hover .title-pro-overlay {
   opacity: 1;
 }
 
-/* line 148, D:/xampp/htdocs/chemarome-web/build/home.scss */
+/* line 170, D:/xampp/htdocs/chemarome-web/build/home.scss */
 .product-info .wrap-img:hover .overlay {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);

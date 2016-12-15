@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+@import "../fonts/calibri/font.css";
 @import "_medium-small";
 
 
 /* DEFINE */
-$cl-hong:#c52d98;
-$cl-hong2:#852e81;
+$cl-hong:#dc469f;
+$cl-hong2:#c87fc5;
+$cl-hong3:#8c277d;
 $cl-light-black:#2a2a2a;
 $cl-footer:#212121;
 $cl-text:#363636;
 $cl-light-text:#c6c7c5;
+$cl-blackgray:#444444;
 
 
 /* MIXIN */
 @mixin fontbase{
 	font-family: 'Raleway', sans-serif;
+}
+@mixin fontbase2{
+	font-family: 'Calibri', sans-serif;
 }
 @mixin media($max-width){
 	@media screen and (max-width:$max-width){
@@ -32,7 +38,7 @@ html{
 	font-size:62.5%;
 }
 body{
-	@include fontbase;
+	@include fontbase2;
 	font-size:1.4rem;
 }
 h1, h2, h3, h4{font-size:2rem; margin:0; padding:0}
@@ -173,20 +179,31 @@ div.clear{
 			position:absolute;
 			top:30%;
 			h3.caption{
-				font-size:4.5rem;
-				font-weight: 900;
-				text-transform: uppercase;
-				color:white;
-				line-height: 6rem;
-				margin-bottom:3.5rem;
+				p{
+					font-size:4.5rem;
+					@include fontbase2;
+					font-weight: 900;
+					text-transform: uppercase;
+					color:white;
+					margin-bottom:3.5rem;
+				}
+				img.logo-caption{
+					margin-bottom:1.5rem;
+				}
 			}
 			a.readmore-caption{
 				font-size:2.2rem;
+				@include fontbase2;
 				font-weight: 500;
 				padding:5px 25px;
 				color:white;
 				border-radius:18px;
-				background:lighten($cl-hong,8%);
+				border: 0.2rem solid white;
+				@include transition(all 0.3s);
+				&:hover{
+					background:$cl-hong2;
+
+				}
 			}
 		}
 	}
@@ -201,7 +218,7 @@ div.clear{
 			font-size:3.5rem;
 			font-weight: 600;
 			margin-bottom:2.5rem;
-			padding-bottom:10px;
+			padding-bottom:20px;
 			position:relative;
 			color:white;
 			&:after{
@@ -209,9 +226,9 @@ div.clear{
 				position:absolute;
 				bottom:0;
 				left:0;
-				width:50px;
-				height:2px;
-				background:$cl-hong;
+				width:40px;
+				height:3px;
+				background:$cl-hong3;
 			}
 		}
 		p.content-ma-in{
@@ -276,8 +293,8 @@ div.clear{
 			}
 			input.btn-submit{
 				@extend input[type="text"];
-				padding:15px 0;
-				background:$cl-hong;
+				padding:11px 0;
+				background:$cl-hong2;
 				color:white;
 				text-align: center;
 				border:none;
@@ -317,7 +334,7 @@ div.clear{
 						-moz-transform:translate(-50%,-50%);
 					}
 					&:hover{
-						background:$cl-hong;
+						background:$cl-hong2;
 					}
 				}
 			}

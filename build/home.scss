@@ -1,22 +1,19 @@
 @import "_common";
 
 .home-slogan{
-	padding:70px 0;
-	background:$cl-hong;
-	background:linear-gradient(to right bottom, $cl-hong, #852e81 );
-	background:-moz-linear-gradient(to right bottom, $cl-hong, #852e81 );
-	background:-webkit-linear-gradient(to right bottom, $cl-hong, #852e81 );
 	.wrap-slogan{
-		color:white;
+		color:$cl-blackgray;
 		text-align:center;
 		h2.title-slogan{
-			@include fontbase;
-			font-size:2.5rem;
+			padding:50px 0 35px;
+			@include fontbase2;
+			font-size:3rem;
 			line-height:4rem;
-			margin-bottom:3rem;
 			padding-bottom:2rem;
 			position:relative;
 			font-weight:600;
+			text-transform:uppercase;
+			letter-spacing:0.2rem;
 			&:after{
 				content:'';
 				position:absolute;
@@ -24,7 +21,7 @@
 				left:50%;
 				height:1px;
 				width:100px;
-				background:white;
+				background:$cl-hong3;
 				transform:translateX(-50%);
 				-webkit-transform:translateX(-50%);
 				-moz-transform:translateX(-50%);
@@ -45,6 +42,31 @@
 	}
 }
 
+.video-area{
+	padding:5rem 0;
+	div.wrap-video{
+		max-width:700px;
+		width:100%;
+		margin:0 auto;
+	}
+}
+
+.home-section2{
+	// height:420px;
+	background:transparent url('../images/banner-area2.jpg')no-repeat;
+	background-size:cover;
+	padding:8rem 0;
+	text-align:center;
+	p.text-section2{
+		@include fontbase2;
+		font-size:2rem;
+		color:white;
+		font-weight:600;
+		line-height:3.6rem;
+		letter-spacing:0.1rem;
+	}
+
+}
 .product-info{
 	padding:5rem 0;
 	.wrap-img{
@@ -95,13 +117,13 @@
 			left:0;
 			bottom:0;
 			width:100%;
-			background:$cl-hong;
+			background:$cl-hong2;
 			overflow:hidden;
 			-webkit-transform: translate3d(0,100%,0);
 			-moz-transform: translate3d(0,100%,0);
 			transform: translate3d(0,100%,0);
 			@include transition(all 0.3s);
-			
+
 		}
 		.title-pro-overlay{
 			color:white;
@@ -127,7 +149,7 @@
 			border-radius:20px;
 			color:white;
 			font-size:1.2rem;
-			
+
 		}
 		&:hover{
 			box-shadow:0 5px 15px rgba(200,67,146,0.8);

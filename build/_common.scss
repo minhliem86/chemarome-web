@@ -7,6 +7,7 @@
 $cl-hong:#dc469f;
 $cl-hong2:#c87fc5;
 $cl-hong3:#8c277d;
+$cl-hongtext:#ad3284;
 $cl-light-black:#2a2a2a;
 $cl-footer:#212121;
 $cl-text:#363636;
@@ -30,6 +31,17 @@ $cl-blackgray:#444444;
 	transition:$trans;
 	-webkit-transition:$trans;
 	-moz-transition:$trans;
+}
+
+@mixin horizon{
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+}
+@mixin vertical{
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
 }
 
 /* RESET */

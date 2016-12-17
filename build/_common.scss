@@ -114,6 +114,7 @@ div.clear{
 					border-radius:0 0 10px 10px;
 				}
 				ul{
+					position:relative;
 					text-align: right;
 					padding:0;
 					list-style:none;
@@ -174,10 +175,22 @@ div.clear{
 						 	}
 
 						}
+						ul.sub-nav{
+							position: absolute;
+							width:100%;
+							right:0;
+							top:100%;
+							li{
+								float:left;
+								margin-right:10px;
+								&:last-child{
+									margin-right:0;
+								}
+							}
+						}
 					}
 				}
 			}
-
 		}
 	}
 }

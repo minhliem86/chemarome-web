@@ -13,10 +13,21 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+
+	<!-- SWIPER -->
+	<link rel="stylesheet" href="js/swiper/css/swiper.min.css">
+	<script src="js/swiper/js/swiper.min.js"></script>
+	<!-- END -->
+
 	<script>
 		$(document).ready(function(){
 			$('.list-map').matchHeight();
 			$('.same-height').matchHeight();
+
+			var mySwiper = new Swiper ('.swiper-container',{
+				 pagination: '.swiper-pagination',
+				 paginationClickable: true
+			});
 
 		})
 	</script>
@@ -116,17 +127,25 @@
 						<div class="col-md-4">
 							<div class="container-slider-product same-height">
 								<div class="swiper-container">
+									<!-- BUTTON PAGINATION -->
+									<div class="swiper-pagination"></div>
+
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">
 											<div class="container-each-product">
 												<img src="images/product-detail/product01.jpg" class="img-responsive" alt="">
-												<h3 class="title-product">Body Care</h3>
+
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="container-each-product">
+												<img src="images/product-detail/product01.jpg" class="img-responsive" alt="">
+
 											</div>
 										</div>
 									</div>
-									<!-- BUTTON PAGINATION -->
-									<div class="swiper-pagination"></div>
 								</div>
+								<h3 class="title-product">Body Care</h3>
 							</div>	<!-- end slider-product-->
 						</div>
 						<div class="col-md-8">

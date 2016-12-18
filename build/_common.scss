@@ -77,6 +77,7 @@ div.clear{
 		position:absolute;
 		top:0;
 		left:0;
+		z-index:10000;
 		.wrap-logo{
 			padding:30px 0 20px;
 			@include media(767px){
@@ -88,9 +89,14 @@ div.clear{
 			float:right;
 			width:50%;
 			margin-top:30px;
+			display: none;
+			@include media(767px){
+				display:block;
+			}
 			@include media(480px){
 				margin-top:20px;
 			}
+
 			button.navbar-toggle{
 				margin-right:0;
 				span.icon-bar{
@@ -155,12 +161,6 @@ div.clear{
 						 		height:1px;
 						 		@include transition(all 0.3s);
 						 	}
-						 	&:hover, &.active{
-						 		color:$cl-hong;
-						 	}
-						 	&:hover:after, &.active:after{
-						 		width:100%;
-						 	}
 						 	@include media(991px){
 						 		padding:0 5px 5px 5px;
 						 		font-size:1.4rem;
@@ -175,16 +175,46 @@ div.clear{
 						 	}
 
 						}
-						ul.sub-nav{
+						&:hover, &.active{
+							> a{
+								color:$cl-hong;
+					 			font-weight: bold;
+					 			&:after{
+							 		width:100%;
+							 	}
+							}
+
+					 	}
+
+						div.wrap-sub-nav{
 							position: absolute;
-							width:100%;
-							right:0;
+							// right:0;
+							width:50%;
 							top:100%;
+							padding-top:2.2rem;
+							// visibility: hidden;
+							display: none;
+						}
+						ul.sub-nav{
+							text-align: left;
 							li{
-								float:left;
+								display: inline-block;
 								margin-right:10px;
+								padding:0;
 								&:last-child{
 									margin-right:0;
+								}
+								a{
+									display:block;
+									color:white;
+									@include fontbase2;
+									font-size:1.6rem;
+									font-weight: bold;
+									&:after{
+										content:'';
+										background: white;
+									}
+
 								}
 							}
 						}
@@ -294,6 +324,55 @@ div.clear{
 				}
 			}
 		}
+		.wrap-map{
+			position:relative;
+			width:100%;
+			max-width:413px;
+			margin:0 auto;
+			span.locate{
+				position:absolute;
+				display:block;
+				width:12px;
+				height:12px;
+				background:$cl-hong;
+				border:1px solid white;
+				border-radius:50%;
+				cursor:pointer;
+				@include transition(all 0.3s);
+				&:hover{
+					box-shadow:0 2px 10px 2px $cl-blackgray;
+				}
+				&#lc-vn{
+					top:184px;
+					left:255px;
+				}
+				&#lc-sin{
+					top:204px;
+					left:240px;
+				}
+				&#lc-malay{
+					top:216px;
+					left:248px;
+				}
+				&#lc-usa{
+					top:149px;
+					left:127px;
+				}
+				&#lc-canada{
+					top:65px;
+					left:120px;
+				}
+				&#lc-autralia{
+					top:115px;
+					left:65px;
+				}
+				&#lc-thailand{
+					top:192px;
+					left:51px;
+				}
+			}
+		}
+
 	}
 	.contact-map{
 		color:white;

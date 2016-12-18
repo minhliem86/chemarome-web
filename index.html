@@ -13,15 +13,26 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<!-- VIDEO -->
 	<link rel="stylesheet" href="js/video/plyr.css">
 	<script type="text/javascript" src="js/video/plyr.js"></script>
+	<!-- END -->
+	<!-- TOOLTIP -->
+	<link rel="stylesheet" href="js/tooltip/tipr.css">
+	<script src="js/tooltip/tipr.min.js"></script>
 	<!-- END -->
 	<script>
 		$(document).ready(function(){
 			$('.list-map').matchHeight();
 
+			/*VIDEO*/
 			plyr.setup();
+
+			/*TOOLTIP*/
+			$('.tip').tipr({
+			});
+
 		})
 	</script>
 	<title>Chemarome</title>
@@ -50,9 +61,23 @@
 								<div class="collapse navbar-collapse" id="main-navigation">
 									<ul class="main-navigation">
 										<li><a href="index.html">Home</a></li>
-										<li><a href="#">About Us</a></li>
+										<li><a href="index.html">About Us</a>
+											<div class="wrap-sub-nav">
+												<ul class="sub-nav">
+													<li><a href="#">Product 1</a></li>
+													<li><a href="#">Product 1</a></li>
+													<li><a href="#">Product 1</a></li>
+												</ul>
+											</div>
+										</li>
 										<li><a  href="product.html">Our Product</a>
-
+											<div class="wrap-sub-nav">
+												<ul class="sub-nav">
+													<li><a href="#">Product 1</a></li>
+													<li><a href="#">Product 1</a></li>
+													<li><a href="#">Product 1</a></li>
+												</ul>
+											</div>
 										</li>
 										<li><a href="#">Support</a></li>
 										<li><a href="#">Contact</a></li>
@@ -86,7 +111,7 @@
 
 		<div class="video-area">
 			<div class="wrap-video">
-				<div data-type="youtube" data-video-id="vhfYis6VuXY"></div>
+				<div data-type="youtube" data-video-id="-xvb23-n06Q"></div>
 			</div>
 		</div>	<!-- end video area -->
 
@@ -190,7 +215,17 @@ We manufacture 4 main fragrance lines for: Body care, Household Applications, Ai
 
 					</div>
 					<div class="col-md-7 col-sm-5">
-						<img src="images/map.png" class="img-responsive" alt="">
+						<div class="wrap-map">
+							<img src="images/map.png" class="img-responsive map" alt="">
+							<span class="locate tip" id="lc-vn" data-mode="top" data-tip="Ho Chi Minh"></span>
+							<span class="locate tip" id="lc-sin" data-mode="top" data-tip="Singapore"></span>
+							<span class="locate tip" id="lc-malay" data-mode="top" data-tip="Malaysia"></span>
+							<span class="locate tip" id="lc-usa" data-mode="top" data-tip="America"></span>
+							<span class="locate tip" id="lc-canada" data-mode="top" data-tip="Canada"></span>
+							<span class="locate tip" id="lc-autralia" data-mode="top" data-tip="Autralia"></span>
+							<span class="locate tip" id="lc-thailand" data-mode="top" data-tip="Thailand"></span>
+						</div>
+
 					</div>
 				</div>
 				<div class="row contact-map">

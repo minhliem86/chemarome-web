@@ -103,13 +103,25 @@ $cl-xanh-title:#c2be35;
 			img{
 				margin:0 auto 2rem;
 			}
-			h3.title-product{
-				font-size:2rem;
-				@include fontbase2;
-				text-align:Center;
-				color:$cl-hongtext;
-				text-transform:uppercase;
-				font-weight:bold;
+		}
+		h3.title-product{
+			font-size:2rem;
+			@include fontbase2;
+			text-align:Center;
+			color:$cl-hongtext;
+			text-transform:uppercase;
+			font-weight:bold;
+		}
+		.swiper-pagination{
+			bottom:40px;
+			.swiper-pagination-bullet{
+				width:15px;
+				height:15px;
+				background:$cl-hong2;
+				opacity:1;
+			}
+			.swiper-pagination-bullet-active{
+				background:$cl-hong3 !important;
 			}
 		}
 	}

@@ -1,0 +1,78 @@
+@import "_common";
+
+$cl-text-product:#5f6971;
+$cl-xanh-title:#c2be35;
+
+.why-page {
+	margin-bottom:5rem;
+	.wrap-title-page{
+		margin-bottom:8rem;
+		h1.title-page{
+			font-size:5rem;
+			@include fontbase2;
+			color:$cl-blackgray;
+			font-weight:bold;
+			text-transform:uppercase;
+			text-align:center;
+			padding:65px 0 25px;
+			margin-bottom:20px;
+			position:relative;
+			@include media(991px){
+				padding:85px 25px 25px;
+				font-size:3rem;
+			}
+			&:after{
+				content:'';
+				display:block;
+				position:absolute;
+				width:130px;
+				height:2px;
+				left:50%;
+				bottom:0;
+				background:$cl-hong3;
+				transform:translateX(-50%);
+				-webkit-transform:translateX(-50%);
+				-moz-transform:translateX(-50%);
+			}
+		}
+		p.sub-title{
+			font-size:1.4rem;
+			@include fontbase2;
+			line-height:3.5rem;
+			text-align:center;
+			color:$cl-text-product;
+		}
+	}
+	.wrap-content-why-page{
+		margin-bottom:3rem;
+		background:url('../images/why/bg-why.png')no-repeat;
+		background-size:cover;
+		padding:8rem 0 7rem;
+		.each-why{
+			margin-bottom:7rem;
+			img{
+				margin:0 auto 2.5rem;
+			}
+			p.des{
+				padding-top:3rem;
+				font-size:2rem;
+				@include fontbase2;
+				font-weight:bold;
+				color:white;
+				text-align:center;
+				position:relative;
+				&:before{
+					content:'';
+					display:block;
+					position:absolute;
+					height:1px;
+					width:100px;
+					top:0;
+					left:50%;
+					background:white;
+					@include  horizon;
+				}
+			}
+		}
+	}
+}

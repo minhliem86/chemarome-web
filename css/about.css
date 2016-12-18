@@ -743,55 +743,39 @@ div.clear {
   background: #c87fc5;
 }
 
-/* line 8, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.page-detail .banner .wrap-caption {
-  height: auto;
-}
-
-/* line 10, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.page-detail .banner .wrap-caption h3.caption {
-  font-family: 'Calibri', sans-serif;
-  font-size: 5rem;
-}
-
-/* line 13, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.page-detail .banner .wrap-caption h3.caption span.xanh {
-  color: #c2be35;
-}
-
-/* line 20, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.bodycare-page {
+/* line 7, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page {
   margin-bottom: 5rem;
 }
 
-/* line 23, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-title-page {
+/* line 9, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-title-page {
   margin-bottom: 8rem;
 }
 
-/* line 25, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-title-page h1.title-page {
+/* line 11, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-title-page h1.title-page {
   font-size: 5rem;
   font-family: 'Calibri', sans-serif;
   color: #444444;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  padding: 85px 0 25px;
+  padding: 65px 0 25px;
   margin-bottom: 20px;
   position: relative;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 25, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-  .wrap-title-page h1.title-page {
+  /* line 11, C:/xampp/htdocs/chemarome-web/build/about.scss */
+  .about-page .wrap-title-page h1.title-page {
     padding: 85px 25px 25px;
     font-size: 3rem;
   }
 }
 
-/* line 39, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-title-page h1.title-page:after {
+/* line 25, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-title-page h1.title-page:after {
   content: '';
   display: block;
   position: absolute;
@@ -805,8 +789,8 @@ div.clear {
   -moz-transform: translateX(-50%);
 }
 
-/* line 53, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-title-page p.sub-title {
+/* line 39, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-title-page p.sub-title {
   font-size: 1.4rem;
   font-family: 'Calibri', sans-serif;
   line-height: 3.5rem;
@@ -814,13 +798,8 @@ div.clear {
   color: #5f6971;
 }
 
-/* line 62, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-content-bodycare-page {
-  margin-bottom: 5rem;
-}
-
-/* line 64, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-content-bodycare-page .container-product {
+/* line 48, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-content-about-page .container-product {
   padding: 3rem 1.5rem;
   border: 0.05rem solid #c6c7c5;
   background: white;
@@ -830,21 +809,21 @@ div.clear {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 64, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-  .wrap-content-bodycare-page .container-product {
+  /* line 48, C:/xampp/htdocs/chemarome-web/build/about.scss */
+  .about-page .wrap-content-about-page .container-product {
     margin-bottom: 3rem;
   }
 }
 
-/* line 72, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-content-bodycare-page .container-product img {
+/* line 56, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-content-about-page .container-product img {
   margin: 0 auto 2.5rem;
   border-radius: 50%;
   border: 0.3rem solid rgba(241, 149, 201, 0.7);
 }
 
-/* line 77, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-content-bodycare-page .container-product h2.title-product {
+/* line 61, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-content-about-page .container-product h2.title-product {
   font-size: 2rem;
   font-family: 'Calibri', sans-serif;
   text-align: Center;
@@ -853,120 +832,8 @@ div.clear {
   font-weight: bold;
 }
 
-/* line 85, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-content-bodycare-page .container-product:hover {
+/* line 69, C:/xampp/htdocs/chemarome-web/build/about.scss */
+.about-page .wrap-content-about-page .container-product:hover {
   box-shadow: 0 5px 15px rgba(200, 67, 146, 0.8);
   border-color: transparent;
-}
-
-/* line 94, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-slider-product, .wrap-img-form .container-form-product {
-  box-shadow: 0 5px 15px rgba(200, 67, 146, 0.8);
-  border: 0.05rem solid transparent;
-  padding: 3rem 1.5rem;
-  background: white;
-}
-
-@media screen and (max-width: 991px) {
-  /* line 94, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-  .wrap-img-form .container-slider-product, .wrap-img-form .container-form-product {
-    margin-bottom: 3rem;
-  }
-}
-
-/* line 103, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-slider-product .container-each-product img, .wrap-img-form .container-form-product .container-each-product img {
-  margin: 0 auto 2rem;
-}
-
-/* line 107, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-slider-product h3.title-product, .wrap-img-form .container-form-product h3.title-product {
-  font-size: 2rem;
-  font-family: 'Calibri', sans-serif;
-  text-align: Center;
-  color: #ad3284;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-/* line 115, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-slider-product .swiper-pagination, .wrap-img-form .container-form-product .swiper-pagination {
-  bottom: 40px;
-}
-
-/* line 117, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-slider-product .swiper-pagination .swiper-pagination-bullet, .wrap-img-form .container-form-product .swiper-pagination .swiper-pagination-bullet {
-  width: 15px;
-  height: 15px;
-  background: #c87fc5;
-  opacity: 1;
-}
-
-/* line 123, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-slider-product .swiper-pagination .swiper-pagination-bullet-active, .wrap-img-form .container-form-product .swiper-pagination .swiper-pagination-bullet-active {
-  background: #8c277d !important;
-}
-
-/* line 128, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product {
-  padding: 5rem 4rem;
-}
-
-/* line 132, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product div.form-group {
-  margin-bottom: 3rem;
-}
-
-/* line 135, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product input[type="text"], .wrap-img-form .container-form-product form.form-product .map-info .contact-map .form-contact input.btn-submit, .map-info .contact-map .form-contact .wrap-img-form .container-form-product form.form-product input.btn-submit, .wrap-img-form .container-form-product form.form-product select {
-  border: none;
-  background: none;
-  padding: 6px 10px;
-  border-bottom: 1px solid #c6c7c5;
-  box-shadow: none;
-  border-radius: 0;
-  color: #5f6971;
-}
-
-/* line 144, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: #5f6971;
-}
-
-/* line 147, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #5f6971;
-}
-
-/* line 150, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product :-ms-input-placeholder {
-  /* IE 10+ */
-  color: #5f6971;
-}
-
-/* line 153, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product .form-btn {
-  padding-top: 3rem;
-}
-
-/* line 155, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product .form-btn input.btn-submit {
-  border: none;
-  background: #c87fc5;
-  padding: 6px 25px;
-  border-radius: 25px;
-  color: white;
-  font-weight: bold;
-  font-family: 'Calibri', sans-serif;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-}
-
-/* line 165, C:/xampp/htdocs/chemarome-web/build/product-detail.scss */
-.wrap-img-form .container-form-product form.form-product .form-btn input.btn-submit:hover, .wrap-img-form .container-form-product form.form-product .form-btn input.btn-submit:focus {
-  box-shadow: 0 3px 15px rgba(200, 67, 146, 0.8);
 }

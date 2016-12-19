@@ -6,15 +6,20 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/product.css">
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script>
 		$(document).ready(function(){
 			$('.list-map').matchHeight();
+
+			animation('animation','fadeInLeft');
 		})
 	</script>
 	<title>Chemarome</title>
@@ -66,7 +71,7 @@ Air Care Fragrances  and Industrial Fragrance.</p>
 				</div>	<!-- end wrap info product -->
 
 				<div class="wrap-each-product">
-					<div class="each-product">
+					<div class="each-product animation hide-ani" data-delay="0">
 						<a href="#">
 							<div class="fog"></div>
 							<img src="images/product/product01.jpg" class="img-responsive product"  alt="Product">
@@ -76,33 +81,33 @@ Air Care Fragrances  and Industrial Fragrance.</p>
 							</div>
 						</a>
 					</div>	<!-- end each product -->
-					<div class="each-product">
+					<div class="each-product animation hide-ani" data-delay="200">
 						<a href="#">
 							<div class="fog"></div>
 							<img src="images/product/product02.jpg" class="img-responsive product"  alt="Product">
-							<h2 class="title-product">HOUSEHOLD FRAGRANCES</h2>
+							<h2 class="title-product">Household Fragrances</h2>
 							<div class="overlay">
-								<h2 class="title-overlay">HOUSEHOLD FRAGRANCES</h2>
+								<h2 class="title-overlay">Household Fragrances</h2>
 							</div>
 						</a>
 					</div>	<!-- end each product -->
-					<div class="each-product">
+					<div class="each-product animation hide-ani" data-delay="400">
 						<a href="#">
 							<div class="fog"></div>
 							<img src="images/product/product03.jpg" class="img-responsive product"  alt="Product">
-							<h2 class="title-product">INTORIOR PERFUMES</h2>
+							<h2 class="title-product">Air Care Fragrances</h2>
 							<div class="overlay">
-								<h2 class="title-overlay">INTORIOR PERFUMES</h2>
+								<h2 class="title-overlay">Air Care Fragrances</h2>
 							</div>
 						</a>
 					</div>	<!-- end each product -->
-					<div class="each-product">
+					<div class="each-product animation hide-ani" data-delay="600">
 						<a href="#">
 							<div class="fog"></div>
 							<img src="images/product/product04.jpg" class="img-responsive product"  alt="Product">
-							<h2 class="title-product">INDUSTRIAL FRAGRANCES</h2>
+							<h2 class="title-product">Industrial Fragrances</h2>
 							<div class="overlay">
-								<h2 class="title-overlay">INDUSTRIAL FRAGRANCES</h2>
+								<h2 class="title-overlay">Industrial Fragrances</h2>
 							</div>
 						</a>
 					</div>	<!-- end each product -->

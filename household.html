@@ -6,13 +6,16 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/product-detail.css">
 
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 
 	<!-- SWIPER -->
 	<link rel="stylesheet" href="js/swiper/css/swiper.min.css">
@@ -28,6 +31,10 @@
 				 pagination: '.swiper-pagination',
 				 paginationClickable: true
 			});
+
+			animation('animation','fadeInUp');
+			animation('animation2','fadeInLeft');
+			animation('animation3','fadeInRight');
 
 		})
 	</script>
@@ -90,7 +97,7 @@
 					<p class="sub-title">The smell of a washed, polished floor or the clean dishes leave the satisfaction of a job well done. The ‘right’ fragrance can uplift even the most mundane chores. Making the smell of clean in customers' homes our obsession, we manufacture great fragrances for household usage, combat malodour and extend the long-lasting effect of delicate aromas </p>
 				</div>
 			</div>
-			<div class="wrap-content-bodycare-page">
+			<div class="wrap-content-bodycare-page animation hide-ani">
 
 				<div class="container">
 					<div class="row">
@@ -125,7 +132,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="container-slider-product same-height">
+							<div class="container-slider-product same-height animation2 hide-ani">
 								<div class="swiper-container">
 									<!-- BUTTON PAGINATION -->
 									<div class="swiper-pagination"></div>
@@ -149,7 +156,7 @@
 							</div>	<!-- end slider-product-->
 						</div>
 						<div class="col-md-8">
-							<div class="container-form-product same-height">
+							<div class="container-form-product same-height animation3 hide-ani">
 								<form action="" method="POST" class="form-product">
 									<div class="container-fluid ">
 										<div class="row form-group">

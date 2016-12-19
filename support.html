@@ -6,17 +6,22 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/support.css">
 	
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script>
 		$(document).ready(function(){
 			$('.list-map').matchHeight();
 			$('.wrap-each-box').matchHeight();
+
+			animation('animation','fadeInUp');
 
 		})
 	</script>
@@ -64,11 +69,11 @@
 				<h1 class="title-page">Support</h1>
 			</div>
 
-			<div class="wrap-content-page">
+			<div class="wrap-content-page animation hide-ani">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="wrap-each-box">
+							<div class="wrap-each-box ">
 								<div class="icon"><img src="images/support/ic-pen.png" class="img-responsive ic" alt="Order Form"></div>
 								<h2 class="title-box">Order form</h2>
 								<p class="content-box">Please click here to fill your order form.<br/> If you need further instruction to fill the form, please contact customer support.</p>

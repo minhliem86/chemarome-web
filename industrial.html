@@ -6,13 +6,16 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/product-detail.css">
 
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 
 	<!-- SWIPER -->
 	<link rel="stylesheet" href="js/swiper/css/swiper.min.css">
@@ -28,6 +31,10 @@
 				 pagination: '.swiper-pagination',
 				 paginationClickable: true
 			});
+
+			animation('animation','fadeInUp');
+			animation('animation2','fadeInLeft');
+			animation('animation3','fadeInRight');
 
 		})
 	</script>
@@ -90,7 +97,7 @@
 					<p class="sub-title">Concentrated fragrances are blended nicely in almost all products that are manufactured around the world. From Spain, Nigeria, Saudi Arabia to Vietnam and Indonesia, Chemarome teams and scientists work restlessly together with local as well as international manufacturers and distributors to meet the demands of all markets. Combining with state-of-the-art technologies, we manufacture the best concentrated fragrances that work with the best products and also support to enhance our partners' brands</p>
 				</div>
 			</div>
-			<div class="wrap-content-bodycare-page">
+			<div class="wrap-content-bodycare-page animation hide-ani">
 
 				<div class="container">
 					<div class="row">
@@ -125,7 +132,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="container-slider-product same-height">
+							<div class="container-slider-product same-height animation2 hide-ani">
 								<div class="swiper-container">
 									<!-- BUTTON PAGINATION -->
 									<div class="swiper-pagination"></div>
@@ -138,7 +145,7 @@
 											</div>
 										</div>
 										<div class="swiper-slide">
-											<div class="container-each-product">
+											<div class="container-each-product animation3 hide-ani">
 												<img src="images/product-detail/product01.jpg" class="img-responsive" alt="">
 
 											</div>

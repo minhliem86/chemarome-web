@@ -6,16 +6,21 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/contact.css">
-
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script>
 		$(document).ready(function(){
 			$('.wrap-address').matchHeight();
+
+			animation('animation2','fadeInRight');
+			animation('animation','fadeInUp');
 		})
 	</script>
 	<title>Chemarome</title>
@@ -61,7 +66,7 @@
 			<div class="wrap-title-page">
 				<h1 class="title-page">Contact Us</h1>
 			</div>
-			<div class="wrap-content-contact-page">
+			<div class="wrap-content-contact-page animation2 hide-ani">
 				<div class="container">
 					<div class="container-contact">
 						<form action="" method="POST" class="form-register">
@@ -95,7 +100,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-sm-6">
-						<div class="wrap-each-address">
+						<div class="wrap-each-address animation hide-ani" data-delay="200">
 							<img src="images/contact/logo-singapore.png" class="img-responsive" alt="">
 							<div class="wrap-address">
 								<p>390 Victoria St. #02 - 38</p>
@@ -109,7 +114,7 @@
 						</div>	<!-- end each address -->
 					</div>
 					<div class="col-md-3 col-sm-6">
-						<div class="wrap-each-address">
+						<div class="wrap-each-address animation hide-ani" data-delay="400">
 							<img src="images/contact/logo-indo.png" class="img-responsive" alt="">
 							<div class="wrap-address">
 								<p>Jl. Tanjung Duren Raya No.</p>
@@ -124,7 +129,7 @@
 						</div>	<!-- end each address -->
 					</div>
 					<div class="col-md-3 col-sm-6">
-						<div class="wrap-each-address">
+						<div class="wrap-each-address animation hide-ani" data-delay="600">
 							<img src="images/contact/logo-vn.png" class="img-responsive" alt="">
 							<div class="wrap-address">
 								<p>5th floor HMC Tower</p>
@@ -139,7 +144,7 @@
 						</div>	<!-- end each address -->
 					</div>
 					<div class="col-md-3 col-sm-6">
-						<div class="wrap-each-address">
+						<div class="wrap-each-address animation hide-ani" data-delay="800">
 							<img src="images/contact/logo-spain.png" class="img-responsive" alt="">
 							<div class="wrap-address">
 								<p>Pintor Roig i Soler, 18-20</p>

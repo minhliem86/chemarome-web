@@ -6,13 +6,16 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/product-detail.css">
 
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 
 	<!-- SWIPER -->
 	<link rel="stylesheet" href="js/swiper/css/swiper.min.css">
@@ -28,6 +31,10 @@
 				 pagination: '.swiper-pagination',
 				 paginationClickable: true
 			});
+
+			animation('animation','fadeInUp');
+			animation('animation2','fadeInLeft');
+			animation('animation3','fadeInRight');
 		})
 	</script>
 	<title>Chemarome</title>
@@ -82,14 +89,14 @@
 			</div>
 		</div>
 
-		<div class="bodycare-page page">
+		<div class="bodycare-page page ">
 			<div class="wrap-title-page">
 				<h1 class="title-page">Fragrances for everyday extraodinary</h1>
 				<div class="container">
 					<p class="sub-title">Fragrance colors our lives from the smell of our personal perfumes, cooking herbs to wall paints. In our laboratory, we paint lives through our noses and senses and strive to create extraordinary feelings everyday. The products are not only leave long-lasting scents for the memory but they function well too. At Chemarome, our perfumists aim for the harmony between art and science. Knowing market trends, we manufacture fragrances that resonate with people in everyday situation </p>
 				</div>
 			</div>
-			<div class="wrap-content-bodycare-page">
+			<div class="wrap-content-bodycare-page animation hide-ani">
 
 				<div class="container">
 					<div class="row">
@@ -124,7 +131,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
-							<div class="container-slider-product same-height">
+							<div class="container-slider-product same-height animation2 hide-ani">
 								<div class="swiper-container">
 									<!-- BUTTON PAGINATION -->
 									<div class="swiper-pagination"></div>
@@ -148,7 +155,7 @@
 							</div>	<!-- end slider-product-->
 						</div>
 						<div class="col-md-8">
-							<div class="container-form-product same-height">
+							<div class="container-form-product same-height animation3 hide-ani">
 								<form action="" method="POST" class="form-product">
 									<div class="container-fluid ">
 										<div class="row form-group">

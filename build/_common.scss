@@ -194,11 +194,11 @@ div.clear{
 
 						div.wrap-sub-nav{
 							position: absolute;
-							// right:0;
-							width:50%;
+							width:auto;
+							left:50%;
+							@include horizon;
 							top:100%;
 							padding-top:2.2rem;
-							// visibility: hidden;
 							display: none;
 						}
 						ul.sub-nav{
@@ -357,23 +357,23 @@ div.clear{
 					top:204px;
 					left:240px;
 				}
-				&#lc-malay{
+				&#lc-jakarta{
 					top:216px;
 					left:248px;
 				}
-				&#lc-usa{
+				&#lc-dubai{
 					top:149px;
 					left:127px;
 				}
-				&#lc-canada{
+				&#lc-russia{
 					top:65px;
 					left:120px;
 				}
-				&#lc-autralia{
+				&#lc-barcelona{
 					top:115px;
 					left:65px;
 				}
-				&#lc-thailand{
+				&#lc-nige{
 					top:192px;
 					left:51px;
 				}

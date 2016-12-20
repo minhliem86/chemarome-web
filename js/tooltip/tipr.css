@@ -10,7 +10,8 @@ http://www.tipue.com/tipr
 .tipr_content
 {
      font: 13px/1.7 'Helvetica Neue', Helvetica, Arial, sans-serif;
-     color: #333;
+     color: #8c277d;
+     font-weight: bold;
      background-color: #fff;
      padding: 9px 17px;
      min-width: 150px;
